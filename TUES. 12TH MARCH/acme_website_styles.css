@@ -1,0 +1,779 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap') */
+
+    * {
+        font-family: sen;
+    }
+
+    *outline {
+            /* 2px solid blue; */
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* Hover state color */
+    a:hover {
+        color: white;
+        background-color: black;
+        /* border: 10px solid black; */
+        border-radius: 5px;
+        padding: 5px 15px 5px 15px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    #Top_bar_merger {
+    position: fixed;
+    width: 100%;
+    height: 148px;
+    z-index: 1;
+    }
+
+    #covid_notif {
+        background-color: #222222;
+        width: 100%;
+        height: 74px;
+        display: inline-flex;
+        color: white;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    #covid_notif_icon {
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .announcement_button {
+        margin: auto;
+        margin-right: 10px;
+        padding: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #EB5757;
+        color: white;
+        border:  #EB5757;
+        border-radius: 50px;
+        height: 34px;
+        width: 153.25px;
+        font-size: 16px;
+    }
+
+    .announcement_button p{
+        flex: 1;
+        gap: 1%;
+        width: 304.3px;
+        height: 27;
+        /* font-size: 18px; real original font size used */
+        font-size: 30px;
+    }
+
+    #Nav_Bar {
+        width: 100%;
+        background-color: #EB5757;
+        height: 74px;
+        display: inline-flex;
+        position: ;
+        
+        /* margin-top: 5px; */
+    }
+
+    #Nav_Bar .acme_logo{
+        margin: auto;
+        margin-top: ;
+        margin-left: 60PX;
+    }
+
+    .trolley_image img{
+        background-color: #222222;
+        border: 10px solid black;
+        border-radius: 5px; 
+        margin-left: 50px;
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        position: absolute;
+        left: 80%;
+        display: ;
+    }
+
+    #Nav_Bar_content {
+        margin-left: 800px;
+    }
+
+    .Nav_Bar_list {
+    margin-right: 50px;
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: ;
+    margin: ;
+    }
+
+    #Nav_Bar_content {
+        display: inline-flex;
+        justify-content: space-around;
+        /* padding: 20px; */
+        margin: auto;
+        list-style-type: none;
+    }
+
+    #Hero_image_banner {
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.034)), url("/Acme_web_project_images/site_background_image.jpeg");        
+        background-size: cover;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 100%;
+        padding-top: 12%;
+        margin-top: ;
+        
+        /* height: auto; */
+    }
+    
+    #Hero_image_banner_content {
+        margin: auto;
+        /* border: 2px solid white; */
+        width: 90%;
+        height: 100%; 
+        z-index: 1;
+    }
+
+    #hero_header_text {
+        margin-top: 10%;
+    }
+
+    #hero_header_text h1 {
+        font-size: 62px;
+        color: white;
+        margin-top: 20%;
+        width: 40%;
+        height: ;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        /* border: 2px solid white; */
+        z-index: 2;
+    }
+    #hero_paragraph_text {
+        color: white;
+        margin-top: ;
+        font-size: 20px;
+    }
+        /* #home_page_shop_CTA a {
+        display: inline-block;
+        text-align: center;       
+        /* padding-top: 0px; */
+        /* 
+        /* margin-bottom: 0px; */
+        /* margin: auto; */ 
+        
+        
+        
+        /* opacity: 0; */
+        
+    #home_page_shop_CTA  {
+        padding: 5px 25px;
+        width: 140.45px;
+        height: 36px;
+        margin: 0px;
+        display: inline;
+    }
+
+    #home_page_shop_CTA a:link {
+        color: white;
+        text-decoration: none;
+        /* display: inline-block; */
+        border: white 2px dashed;
+        border-radius: 5px;
+        background-color: transparent;
+        font-size: 16px;
+
+    }
+
+    #home_page_shop_CTA a:hover {
+        color: black;
+        background-color: white;
+        transition: 0.3s ease-in 0.3s ease-in-out 0.3s;
+        
+    }
+
+    #shop_section {
+        /* height: 700px; */
+        height: fit-content;
+        width: 100%;
+        /* padding-top: 12%; */
+        margin: auto;
+        margin-top: ;
+        /* border: 2px solid red; */
+    }
+
+    #patron_call {
+        padding: 0px;
+        display: flex;
+        /* border: 2px solid blue; */
+        width: 90%;
+        height: fit-content;
+        margin-left: 5%;
+        margin-right: ;
+        margin-top: 2%;
+    }
+
+    #ways_to_support {
+        width: ;
+        margin-top: 40px;
+    }
+        
+    #ways_to_support p {
+        padding: 0;
+        margin: 0;
+    }                                           /* actually useful      */
+
+    #support_acme_outdoor h2 {
+        font-size: 40px;
+        padding: 0;
+        margin: 0;    
+    }
+
+    #support_need {
+        /* margin: 0; */
+        margin-top: 16px;
+        /* width: 457.19px; */
+        height: fit-content;
+        margin-bottom: 0px;
+        margin-left:  3%;
+        line-height: 25px;
+    }
+
+    #support_need p {
+        margin-bottom: 10px;
+    }
+
+    #support_section_wrapper {
+        margin-right: 20px;
+        width: 50%;
+    }       /* styling finished                 */
+
+    #shop_shapes_wrapper {
+        width: 100%;
+        /* border: 2px solid green; */
+        height: fit-content;
+        /* height: 501px; */
+       /* margin-top: 40px; */
+        display: flex;   
+        margin-bottom: 5%;
+        z-index: -4;
+    }
+
+    .support_square_columns {
+        /* margin: auto; */
+        margin-top: 25px;
+        width: 350px;
+        height: 500px;
+        /* border: 2px solid black; */
+        background-color: transparent;
+    }
+
+    .support_square_columns p {
+        line-height: 25px;
+        font-size: 16px;
+        /* font-weight: normal; */
+    }
+
+    .shop_boxes {
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        /* margin: auto; */
+        margin-bottom: 15%;
+        border-radius: 5px;
+        width: 350px;
+        height: 350px;
+        background-color: #222222;
+        /* padding: 0%; */
+    }
+
+    #support_square_column_1, #support_square_column_2, #support_square_column_3 {
+        /* margin-right: 45px; */
+        margin-left: 5%;
+    }   #support_square_columns p{
+                        line-height: 50px; margin-bottom: 10px; }
+                                        
+    #shop_box_2 {
+        /* padding: 0%; */
+    }
+
+    .shop_box_square_content {
+        color: white;
+    }
+
+    #shop_box_square_number_box_1, #shop_box_square_number_box_2, #shop_box_square_number_box_3 {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;        
+    }
+
+    #shop_box_square_number_box_1 {
+        top: 920px;
+        left: 100px;
+    }
+
+    #shop_box_square_number_box_2 {
+        top: 920px;
+        left: 515px;
+    }
+
+    #shop_box_square_number_box_3 {
+        top: 920px;
+        left: 930px;
+    }
+
+    #shop_box_square_text_box_1, #shop_box_square_text_box_2, #shop_box_square_text_box_3 {
+        position: absolute;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    #shop_box_square_text_box_1 {
+        text-align: center;
+        top: 1010px;
+        left: 140px;
+    }
+
+    #shop_box_square_text_box_2 {
+        top: 1030px;
+        left: 580px;
+    }
+
+    #shop_box_square_text_box_3 {
+        /* margin: auto; */
+        text-align: center;
+        top: 1020px;
+        left: 950px;
+    }
+
+    #bttm_Hero_image_banner {
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.034)), url("/Acme_web_project_images/middle_section_background_image.jpeg");        
+        background-size: cover;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 95%;
+        padding-top: 12%;
+        margin-top: ;
+        padding-right: 5%;
+        /* object-fit: cover; */
+        /* object-position: 90% 50%; */
+        /* height: auto; */
+    }
+
+    #safe_Health_wrapper {
+        width: fit-content;
+        height: 300px;
+        /* border: 2px solid blue; */
+        color: white;
+        width: 50%;
+        margin-left: 50%;
+        text-align: right;
+        /* margin-right: 15%; */
+    }
+
+    #safe_Health_header {
+        /* font-size: 40px; */
+        font-size: 30px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #safe_Health_text {
+    width: 80;
+    height: max-content;
+    line-height: 25px;
+    font-size: 18px;
+    /* text-align: right; */
+    }               #safe_Health_text p { margin-top: 0px;}
+
+    #Statement_button {
+        border-radius: 5px;
+        background-color: white;
+        width: 210px;
+        height: 35px;
+        /* float: right; */
+        margin-left: 65%;
+        /* justify-content: center; */
+        display: flex;
+    }
+
+    #Statement_button p{
+        color: #222222;
+        /* text-align: center; */
+        font-weight: bold;
+        margin: auto;
+        /* max-height: fit-content; */
+    }
+
+    #shop_open {
+        padding-top: 4%;
+        width: 90%;
+        height: 100px;
+        /* border: 2px solid blue; */
+        margin-left: 5%;
+        display: block;
+        line-height: 0%;
+    }   
+
+    #shop_open p {
+        font-size: 17px;
+    }
+
+    #shop_open h2{ 
+        font-size: 40px;
+    }
+
+    /* #product_session {
+        width: 100%;
+        height: fit-content;
+    } */
+
+    #product_card_displays {
+        display: inline-flex;
+        /* border: 2px solid blue; */
+        height: fit-content;
+        margin-top: 1.5%;
+        width: 100%;
+        /* border: red 2px solid; */
+        margin: auto;
+    }
+
+    #product_banner_wrapper_1 {
+        margin: auto;
+    }
+
+    .product_banners {
+        height: 400px;
+        width: 350px;
+        /* border: #222222 2px solid; */
+        border-radius: 5px;
+        display: inline-flex;
+        /* margin-left: 5%; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* margin: auto; */
+    }
+
+    #product_banner_1 {
+       background-image: url(/Acme_web_project_images/white_tent_image.jpeg);
+       /* margin-right: 0%; */
+    }
+
+    #product_banner_2 {
+        background-image: url(/Acme_web_project_images/cup_image.jpeg); 
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+     }
+
+    #product_banner_3 {
+        background-image: url(/Acme_web_project_images/bag_image.jpeg);
+     }
+
+     #inner_button {
+        margin-left: 73%;
+        margin-top: 5%;
+     }
+
+     #inner_button p {
+       margin-top: 10%;
+     }
+
+    #product_name_wrapper {
+        display: inline-flex;
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        /* border: 2px solid green; */
+    }
+
+    .product_tag {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #product_price_wrapper {
+        display: inline-flex;
+        width: fit-content;
+        height: fit-content;
+        /* border: 2px solid blue; */
+        width: 100%;
+        margin: auto;
+    }
+
+    .product_price {
+        margin-left: 20%;
+        /* border: 2px solid orangered; */
+        border-radius: 5px;
+        width: fit-content;
+        height: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        /* margin: auto; */
+    }
+
+    .product_price del{
+        color: #EB5757;
+    }
+
+    .details {
+        padding-bottom: 0;
+        padding-top: 5px;
+        background-color: #EB5757;
+        color: white;
+        font-weight: bold;
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    #shop_more {
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #view_products {
+        margin-top: 10px;
+        margin: auto;
+        color: white;
+        font-weight: bold;
+        width: 150px;
+        height: 20px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px ;
+        background-color: #222222;
+    }
+
+    .banner_wrapper {
+        margin: auto;
+        width: 328px;
+        height: 500px;
+    }
+
+    .product_tag, .product_price {
+        margin-left: 25%;
+    }
+
+    #product_card_displays {
+        width: 100%;
+        margin: auto;
+    }
+
+    #product_banner_wrapper_2 {
+        display: grid;
+        align-content: ;
+    }
+
+    #product_banner_wrapper_3 {
+        display: grid;
+    }
+
+    #inner_button {
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 80px;
+        height: 35px;
+        background-color: #EB5757;
+        border-radius: 5px;
+    }
+
+    
+
+    
+#hanger_parent {
+    /* border: 2px solid blue; */
+    margin-left: 10%;
+    width: 90%;
+    /* height: 400px; */
+    height: fit-content;
+    margin-bottom: 5%;
+    display: inline-flex;
+    margin-top: 5%;
+    /* color: white; */
+}
+
+#hanger_image {
+    background-image: url(/Acme_web_project_images/Square_pay_image.jpeg);
+    background-repeat: no-repeat;
+    /* background-position-y: center; */
+    background-size: cover;
+    border-radius: 5px;
+    width: 350px;
+    height: 450px;
+    /* border: 5px solid greenyellow; */
+    margin-top: 2.5%;
+    position: absolute;
+    z-index: -2;
+    left: 5%;
+}
+
+#hanger_right {
+    background-color: #222222;
+    border-radius: 5px;
+    width: 950px;
+    height: 550px;
+    position: relative;
+    right: -13%;
+    z-index: -3;
+}
+
+#hanger_text_parent {
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#shop_local {
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+#hanger_text_wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.hanger_text p{
+    text-align: left;
+    text-wrap: wrap;
+    width: 400px;
+    height: 100%;
+    margin-bottom: -50px;
+    margin: auto;
+}
+
+.hanger_text {
+
+}
+
+#dashed_text, #j_Doe, #Acme_outdoors {
+    text-align: left;
+    margin-left: 3%;
+}
+
+#dashed_text, #j_Doe, #Acme_outdoors, .hanger_text p {    
+    line-height: 25px;
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+#j_Doe, #Acme_outdoors {
+    margin-top: 0;
+}
+
+
+
+
+#footer_top_content_wrapper {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid white; */
+    display: block;
+    /* z-index: ; */
+}
+
+#footer_top_content_container {
+    display: inline-flex;
+    /* justify-content: space-around; */
+    width: 100%;
+    margin-top: 3%;
+}
+
+#footer_logo {
+    /* border: 2px solid #F9F9F9; */
+    width: 100px;
+    height: 50px;
+    margin-left: 4%;
+}
+
+#footer_social_links {
+    width: 500px;
+    margin-left: 70%;
+}
+
+.footer_nav_links {
+    display: inline-flex;
+    /* border: 2px solid #F9F9F9; */
+    /* border-radius: ; */
+    margin-top: -4%;
+    height: 40px;
+    width: 40px;
+}
+
+.footer_nav_links ul {
+    list-style-type: none;
+    /* width: 50px; */
+    justify-content: space-between;
+
+}
+
+#twitter {
+    background-image: url(/Acme_web_project_images/twitter_bird_logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#facebook {
+    background-image: url(/Acme_web_project_images/facebook_logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10%;
+    margin-left: 3%;
+}
+
+#instagram {
+    background-image: url(/Acme_web_project_images/instagram_logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10%;
+    margin-left: 3%;
+}
+
+
+
+#webflow_copyright {
+    height: 10%;
+    width: 20%;
+    font-size: 12px;
+    /* border: 2px solid white; */
+    margin: auto;
+    margin-top: 5%;
+}
+
+#webflow_copyright p {
+    color: #F9F9F9;
+    margin: auto;
+    text-align: center;
+}
+
+
+    #footer {
+        width: 100%;
+        height: 200px;
+        background-color: #222222;
+    }
